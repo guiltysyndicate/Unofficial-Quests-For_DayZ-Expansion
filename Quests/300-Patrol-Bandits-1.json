@@ -1,0 +1,51 @@
+{
+    "ConfigVersion": 5,
+    "ID": 300,
+    "Type": 7,
+    "Title": "Clear Patrol - Bandits",
+    "Descriptions": [
+        "Some bandits have made camp up at Devils Castle and have been shooting up the nearby towns. They need to be dealt with.",
+        "Head up to Devils Castle and clear out the bandits. They are a small group but they are well armed and dangerous. Be careful.",
+        "Nice work, we could use more people like you. Here is your reward."
+    ],
+    "ObjectiveText": "Kill all units of the bandit patrol group at the marked location.",
+    "PreQuest": -1,
+    "FollowUpQuest": -1,
+    "IsAchivement": 0,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "IsBanditQuest": 0,
+    "IsHeroQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestClassName": "",
+    "Objectives": [
+        {
+            "ConfigVersion": 9,
+            "ID": 1,
+            "ObjectiveType": 7,
+            "ObjectiveText": "",
+            "TimeLimit": -1
+        }
+    ],
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "Money_Dollar100",
+            "Amount": 10,
+            "Attachments": []
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RewardsForGroupOwnerOnly": 0,
+    "HumanityReward": 0,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ]
+}

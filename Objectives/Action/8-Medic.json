@@ -1,0 +1,10 @@
+{
+    "ConfigVersion": 9,
+    "ID": 8,
+    "ObjectiveType": 10,
+    "ObjectiveText": "",
+    "TimeLimit": -1,
+    "ActionNames": [
+        "ActionFeedPurificationTablets"
+    ]
+}

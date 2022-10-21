@@ -1,0 +1,11 @@
+{
+    "ConfigVersion": 9,
+    "ID": 5,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Kill and Skin a Deer, bring back the pelt to Peter at the Trader.",
+    "TimeLimit": -1,
+    "Collection": {
+        "Amount": 1,
+        "ClassName": "DeerPelt"
+    }
+}

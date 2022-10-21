@@ -1,0 +1,11 @@
+{
+    "ConfigVersion": 5,
+    "ID": 3,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Kill 10 Brown Chickens and bring them back to Peter at the Trader.",
+    "TimeLimit": -1,
+    "Collection": {
+        "Amount": 10,
+        "ClassName": "DeadChicken_Brown"
+    }
+}

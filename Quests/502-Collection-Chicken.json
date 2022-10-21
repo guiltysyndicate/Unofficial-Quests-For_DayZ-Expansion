@@ -1,0 +1,76 @@
+{
+    "ConfigVersion": 5,
+    "ID": 502,
+    "Type": 4,
+    "Title": "Fried Chicken",
+    "Descriptions": [
+        "Nancy is looking to make her famous Fried Chicken, but the crazy bitch only uses Brown Chickens, not sure what thats about..",
+        "Kill 10 Brown Ckickens and bring them back to Peter at the Trade Center.",
+        "It aint KFC but it's still good, here is your reward."
+    ],
+    "ObjectiveText": "Kill 10 Brown Chickens",
+    "PreQuest": -1,
+    "FollowUpQuest": -1,
+    "IsAchivement": 0,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "IsBanditQuest": 0,
+    "IsHeroQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestClassName": "",
+    "Objectives": [
+        {
+            "ConfigVersion": 9,
+            "ID": 3,
+            "ObjectiveType": 4,
+            "ObjectiveText": "",
+            "TimeLimit": -1
+        }
+    ],
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "ChickenBreastMeat",
+            "Amount": 5,
+            "Attachments": []
+        },
+        {
+            "ClassName": "BookDracula",
+            "Amount": 1,
+            "Attachments": []
+        },
+        {
+            "ClassName": "BookDeadSouls",
+            "Amount": 1,
+            "Attachments": []
+        },
+        {
+            "ClassName": "DogtagCase",
+            "Amount": 1,
+            "Attachments": []
+        },
+        {
+            "ClassName": "RP_PaleMan",
+            "Amount": 1,
+            "Attachments": []
+        },
+        {
+            "ClassName": "Money_Dollar100",
+            "Amount": 1,
+            "Attachments": []
+        }                                         
+    ],
+    "NeedToSelectReward": 1,
+    "RewardsForGroupOwnerOnly": 0,
+    "HumanityReward": 50,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ]
+}

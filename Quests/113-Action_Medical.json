@@ -1,0 +1,37 @@
+{
+    "ConfigVersion": 5,
+    "ID": 113,
+    "Type": 10,
+    "Title": "Field Medic - Stitches",
+    "Descriptions": [],
+    "ObjectiveText": "You have provided another survivor with Stitches and completed a server achievement!",
+    "PreQuest": -1,
+    "FollowUpQuest": -1,
+    "IsAchivement": 1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 1,
+    "IsGroupQuest": 0,
+    "IsBanditQuest": 0,
+    "IsHeroQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestClassName": "",
+    "Objectives": [
+        {
+            "ConfigVersion": 9,
+            "ID": 13,
+            "ObjectiveType": 10,
+            "ObjectiveText": "",
+            "TimeLimit": -1
+        }
+    ],
+    "QuestItems": [],
+    "Rewards": [],
+    "NeedToSelectReward": 0,
+    "RewardsForGroupOwnerOnly": 0,
+    "HumanityReward": 100,
+    "QuestGiverIDs": [],
+    "QuestTurnInIDs": []
+}

@@ -1,0 +1,51 @@
+{
+    "ConfigVersion": 5,
+    "ID": 504,
+    "Type": 4,
+    "Title": "Deer Pelt",
+    "Descriptions": [
+        "The nights are started to get colder, we need some Deer pelts to make blankets out of.",
+        "Kill a Deer and bring it's pelt back to Peter at the Trade Center.",
+        "Sweet, here is your reward."
+    ],
+    "ObjectiveText": "Kill and field dress a Deer.",
+    "PreQuest": -1,
+    "FollowUpQuest": -1,
+    "IsAchivement": 0,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "IsBanditQuest": 0,
+    "IsHeroQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestClassName": "",
+    "Objectives": [
+        {
+            "ConfigVersion": 9,
+            "ID": 5,
+            "ObjectiveType": 4,
+            "ObjectiveText": "",
+            "TimeLimit": -1
+        }
+    ],
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "Money_Dollar100",
+            "Amount": 5,
+            "Attachments": []
+        }                                         
+    ],
+    "NeedToSelectReward": 0,
+    "RewardsForGroupOwnerOnly": 0,
+    "HumanityReward": 200,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ]
+}

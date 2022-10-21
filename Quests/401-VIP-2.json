@@ -1,0 +1,51 @@
+{
+    "ConfigVersion": 5,
+    "ID": 401,
+    "Type": 9,
+    "Title": "Fucked around and found out",
+    "Descriptions": [
+        "Caught this muthafucker trying to fuck a sheep, we have a town setup for perverts like this. Drop their ass off at Rogovo",
+        "Take the pervert home and let Peter know the job was completed.",
+        "Thanks for taking that peice of shit home. Here is your reward."
+    ],
+    "ObjectiveText": "Take the Pervert home",
+    "PreQuest": -1,
+    "FollowUpQuest": -1,
+    "IsAchivement": 0,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "IsBanditQuest": 0,
+    "IsHeroQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestClassName": "",
+    "Objectives": [
+        {
+            "ConfigVersion": 9,
+            "ID": 2,
+            "ObjectiveType": 9,
+            "ObjectiveText": "",
+            "TimeLimit": 300
+        }
+    ],
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "Money_Dollar100",
+            "Amount": 5,
+            "Attachments": []
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RewardsForGroupOwnerOnly": 0,
+    "HumanityReward": 100,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ]
+}

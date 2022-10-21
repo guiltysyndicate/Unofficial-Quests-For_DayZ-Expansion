@@ -1,0 +1,76 @@
+{
+    "ConfigVersion": 5,
+    "ID": 501,
+    "Type": 4,
+    "Title": "Fish Stew",
+    "Descriptions": [
+        "Someone is looking to make some fish stew for the next community pot luck, bring one back from your next trip.",
+        "Catch a Mackerel and bring it back to Peter at the Trade Center.",
+        "I fucking hate fish stew...but some of the folks love it, here is your reward."
+    ],
+    "ObjectiveText": "Catch a Mackerel",
+    "PreQuest": -1,
+    "FollowUpQuest": -1,
+    "IsAchivement": 0,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "IsBanditQuest": 0,
+    "IsHeroQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestClassName": "",
+    "Objectives": [
+        {
+            "ConfigVersion": 9,
+            "ID": 2,
+            "ObjectiveType": 4,
+            "ObjectiveText": "",
+            "TimeLimit": -1
+        }
+    ],
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "YK_Cassette_NaZare",
+            "Amount": 1,
+            "Attachments": []
+        },
+        {
+            "ClassName": "YK_Cassette_WasWollenWirTrinken",
+            "Amount": 1,
+            "Attachments": []
+        },
+        {
+            "ClassName": "YK_Cassette_Gruppakrovi",
+            "Amount": 1,
+            "Attachments": []
+        },
+        {
+            "ClassName": "YK_Cassette_Discoteque",
+            "Amount": 1,
+            "Attachments": []
+        },
+        {
+            "ClassName": "RP_HellRaiser",
+            "Amount": 1,
+            "Attachments": []
+        },
+        {
+            "ClassName": "Money_Dollar50",
+            "Amount": 1,
+            "Attachments": []
+        }                                         
+    ],
+    "NeedToSelectReward": 1,
+    "RewardsForGroupOwnerOnly": 0,
+    "HumanityReward": 50,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ]
+}

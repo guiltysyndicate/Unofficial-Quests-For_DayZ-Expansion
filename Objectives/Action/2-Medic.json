@@ -1,0 +1,10 @@
+{
+    "ConfigVersion": 9,
+    "ID": 2,
+    "ObjectiveType": 10,
+    "ObjectiveText": "",
+    "TimeLimit": -1,
+    "ActionNames": [
+        "ActionGiveBloodTarget"
+    ]
+}
