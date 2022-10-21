@@ -1,0 +1,1 @@
+**.map objects for Quests need to be placed in ```\mpmissions\Your_Map\expansion\quests\objects```**
