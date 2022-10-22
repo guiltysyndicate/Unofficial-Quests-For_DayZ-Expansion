@@ -1,1 +1,1 @@
-**These quests have been broken out individually but can be grouped together **
+**You will need to adjust the Loadout's for NPC's and the Quest rewards**

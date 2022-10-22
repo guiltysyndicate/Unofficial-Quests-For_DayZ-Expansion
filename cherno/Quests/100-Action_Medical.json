@@ -7,8 +7,6 @@
     "ObjectiveText": "You have bandaged another survivor and completed a server achievement!",
     "PreQuest": -1,
     "FollowUpQuest": -1,
-    "QuestGiverID": -1,
-    "QuestTurnInID": -1,
     "IsAchivement": 1,
     "Repeatable": 0,
     "IsDailyQuest": 0,
@@ -35,6 +33,5 @@
     "RewardsForGroupOwnerOnly": 0,
     "HumanityReward": 100,
     "QuestGiverIDs": [],
-    "QuestTurnInIDs": [-1
-]
+    "QuestTurnInIDs": []
 }
