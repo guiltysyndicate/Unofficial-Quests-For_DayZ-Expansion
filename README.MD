@@ -22,16 +22,16 @@ The name of the quest files is arbitrary so I have mapped them out this way for 
 
 ## 1. Quests
 ---
-Copy the Quest's that you want or all of them from ```cherno\Quests\``` and paste/ftp them to your Expansion Quests directory ```(Profile or SC)\ExpansionMod\Quests\Quests\```.
+Copy the Quest's that you want or all of them from ```chernarusplus\Profile\ExpansionMod\Quests\Quests\``` and paste/ftp them to your Expansion Quests directory ```(Profile or SC)\ExpansionMod\Quests\Quests\```.
 
 
 ## 2. Objectives
 ---
-Copy the Objectives for the Quests that you pulled from step 1 from ```cherno\Objectives\``` and paste/ftp them to your Expansion Objectives directory ```(Profile or SC)\ExpansionMod\Quests\Objectives\```.
+Copy the Objectives for the Quests that you pulled from step 1 from ```chernarusplus\Profile\ExpansionMod\Quests\Objectives\``` and paste/ftp them to your Expansion Objectives directory ```(Profile or SC)\ExpansionMod\Quests\Objectives\```.
 
 ## 3. Quest Objects
 ---
-Copy the Quest Objects for the Quests that you pulled from step 1 from ```cherno\QuestObjects\``` and paste/ftp them to your Expansion Quest Objects directory ```mpmissions\(Your_Map)\expansion\quests\objects```. If the directory does not exist, create it.
+Copy the Quest Objects for the Quests that you pulled from step 1 from ```chernarusplus\mpmissions\(Your_MAP)\expansion\quests\objects\``` and paste/ftp them to your Expansion Quest Objects directory ```mpmissions\(Your_Map)\expansion\quests\objects```. If the directory does not exist, create it.
 
 ## 4. NPC's
 ---
@@ -51,15 +51,15 @@ If you are adding these quests to your existing setup, you will need to update t
         505
     ],
 ```
-If you are starting from scratch with your quest system, copy the NPC's from ```cherno\NPCs\``` and paste/ftp them to your Expansion NPC's directory ```mpmissions\(Your_Map)\ExpansionMod\Quests\NPCs\```. **Note: These are the quest ID's for each quest under ```cherno\Quests\``` and not the Objective ID's from ```cherno\Objectives\```** 
+If you are starting from scratch with your quest system, copy the NPC's from ```chernarusplus\Profile\ExpansionMod\Quests\NPCs\``` and paste/ftp them to your Expansion NPC's directory ```mpmissions\(Your_Map)\ExpansionMod\Quests\NPCs\```. **Note: These are the quest ID's for each quest under ```chernarusplus\Profile\ExpansionMod\Quests\Quests\``` and not the Objective ID's from ```chernarusplus\Profile\ExpansionMod\Quests\Objectives```** 
 
 ## 5. Loadouts
 ---
-If there are Loadouts here that you want to incorporate into your existing setup, copy them from ```cherno\Loadouts\``` and paste/ftp them to your Expansion Loadouts directory ```(Profile or SC)\ExpansionMod\Loadouts\```. To use them, add the Loadout file name to your Quest NPC under ```mpmissions\(Your_Map)\ExpansionMod\Quests\NPCs\```
+If there are Loadouts here that you want to incorporate into your existing setup, copy them from ```chernarusplus\Profile\ExpansionMod\Loadouts\``` and paste/ftp them to your Expansion Loadouts directory ```(Profile or SC)\ExpansionMod\Loadouts\```. To use them, add the Loadout file name to your Quest NPC under ```mpmissions\(Your_Map)\ExpansionMod\Quests\NPCs\```
 ```
-{
-    "NPCLoadoutFile": "TraderGroup",
-}
+        {
+            "NPCLoadoutFile": "TraderGroup",
+        }
 ```
 or your Ai Patrols under ```mpmissions\(Your_Map)\expansion\settings\AIPatrolSettings.json```
 ```
