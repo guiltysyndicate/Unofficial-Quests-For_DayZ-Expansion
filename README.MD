@@ -51,7 +51,7 @@ If you are adding these quests to your existing setup, you will need to update t
         505
     ],
 ```
-If you are starting from scratch with your quest system, copy the NPC's from ```cherno\NPCs\``` and paste/ftp them to your Expansion NPC's directory ```mpmissions\(Your_Map)\ExpansionMod\Quests\NPCs\```.
+If you are starting from scratch with your quest system, copy the NPC's from ```cherno\NPCs\``` and paste/ftp them to your Expansion NPC's directory ```mpmissions\(Your_Map)\ExpansionMod\Quests\NPCs\```. **Note: These are the quest ID's for each quest under ```cherno\Quests\``` and not the Objective ID's from ```cherno\Objectives\```** 
 
 ## 5. Loadouts
 ---
