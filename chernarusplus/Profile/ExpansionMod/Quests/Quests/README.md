@@ -1,5 +1,5 @@
 # Loadout Notes
-If a Loadout has external dependencies, they will be noted here.
+If a Quest has external dependencies, they will be noted here.
 
 ## MMGTanLoadout
 This requires the ```@MMG - Mightys Military Gear``` mod to be installed. ID ```2663169692```

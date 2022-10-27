@@ -2,20 +2,20 @@
 
 # Quest Naming Convention
 ---
-The name of the quest files is arbitrary so I have mapped them out this way for ease of use, feel free to rename then however you want.
+The name of the quest files is arbitrary so I have mapped them out this way for ease of use, feel free to rename then however you want. 
 
 ## Naming Convention Mapping
 ```
-100 - Action Quests
-200 - AiCamp Quests
-300 - AiPatrol Quests
-400 - AiVIP Quests ( These currently do not work, bug is known and should be addressed in the next Expansion Patch )
-500 - Collection Quests
-600 - Crafting Quests
-700 - Delivery Quests
-800 - Target Quests
-900 - Travel Quests
-1000 - TreasureHunt Quests
+100  -  Action Quests
+200  -  AiCamp Quests
+300  -  AiPatrol Quests
+400  -  AiVIP Quests ( These currently do not work, bug is known and should be addressed in the next Expansion Patch )
+500  -  Collection Quests
+600  -  Crafting Quests
+700  -  Delivery Quests
+800  -  Target Quests
+900  -  Travel Quests
+1000 -  TreasureHunt Quests
 ```
 
 # How to use these Templates
