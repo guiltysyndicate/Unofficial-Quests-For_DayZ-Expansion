@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 9,
+    "ConfigVersion": 10,
     "ID": 2,
     "ObjectiveType": 9,
     "ObjectiveText": "Take the Survivor home to rest.",
@@ -11,11 +11,8 @@
     ],
     "MaxDistance": 20.0,
     "AIVIP": {
-        "NPCClassName": "",
-        "NPCSpeed": "RUN",
-        "NPCMode": "HALT",
-        "NPCFaction": "Passive",
         "NPCLoadoutFile": "BanditLoadout.json"
     },
-    "MarkerName": "Escort VIP"
+    "MarkerName": "Escort VIP",
+    "ShowDistance": 1    
 }

@@ -1,5 +1,9 @@
 **You will need to adjust the Loadout's for NPC's and the Quest rewards**
 
+# Update:
+- All of the quests have been updated to the most recent version as of 01/27/2022 @1900 EST.
+- Quest 801 seems to have a new issue which prevents the Quest Board to showing quests, it has been removed from NPC Quest Board for debugging.
+- AiVIP quests are still now working. ( VIP NPC does not spawn)
 # Quest Naming Convention
 ---
 The name of the quest files is arbitrary so I have mapped them out this way for ease of use, feel free to rename then however you want. 

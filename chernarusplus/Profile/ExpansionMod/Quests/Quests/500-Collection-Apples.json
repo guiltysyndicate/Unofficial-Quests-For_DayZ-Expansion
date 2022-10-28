@@ -24,7 +24,7 @@
     "QuestClassName": "",
     "Objectives": [
         {
-            "ConfigVersion": 9,
+            "ConfigVersion": 10,
             "ID": 1,
             "ObjectiveType": 4,
             "ObjectiveText": "",

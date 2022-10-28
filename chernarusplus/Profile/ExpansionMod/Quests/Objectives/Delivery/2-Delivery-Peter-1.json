@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 9,
+    "ConfigVersion": 10,
     "ID": 2,
     "ObjectiveType": 5,
     "ObjectiveText": "Deliver the package to Peter",
@@ -10,11 +10,7 @@
             "ClassName": "ExpansionQuestItemPackage"
         }
     ],
-    "Position": [
-        3706.27001953125,
-        402.0119934082031,
-        5987.080078125
-    ],
     "MaxDistance": 20.0,
-    "MarkerName": "Talk to Peter"
+    "MarkerName": "Talk to Peter",
+    "ShowDistance": 1
 }

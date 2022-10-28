@@ -24,14 +24,14 @@
     "QuestClassName": "",
     "Objectives": [
         {
-            "ConfigVersion": 9,
+            "ConfigVersion": 10,
             "ID": 2,
             "ObjectiveType": 3,
             "ObjectiveText": "",
             "TimeLimit": -1
         },
         {
-            "ConfigVersion": 9,
+            "ConfigVersion": 10,
             "ID": 1,
             "ObjectiveType": 2,
             "ObjectiveText": "",
