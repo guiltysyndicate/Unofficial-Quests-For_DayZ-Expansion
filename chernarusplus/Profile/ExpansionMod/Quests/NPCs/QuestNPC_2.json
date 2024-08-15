@@ -1,8 +1,7 @@
 {
-    "ConfigVersion": 1,
+    "ConfigVersion": 6,
     "ID": 2,
     "ClassName": "ExpansionQuestNPCAIElias",
-    "IsAI": 1,
     "Position": [
         3192.199951171875,
         296.7070007324219,
@@ -13,7 +12,6 @@
         0.0,
         0.0
     ],
-    "QuestIDs": [],
     "NPCName": "Steve",
     "DefaultNPCText": "What do you want? I am busy...",
     "Waypoints": [
@@ -26,5 +24,11 @@
     "NPCEmoteID": 14,
     "NPCEmoteIsStatic": 1,
     "NPCLoadoutFile": "TraderGroup",
-    "IsStatic": 0
+    "NPCInteractionEmoteID": 0,
+    "NPCQuestCancelEmoteID": 0,
+    "NPCQuestStartEmoteID": 0,
+    "NPCQuestCompleteEmoteID": 0,
+    "NPCFaction": "",
+    "NPCType": 2,
+    "Active": 1
 }

@@ -1,16 +1,20 @@
 {
-    "ConfigVersion": 10,
+    "ConfigVersion": 28,
     "ID": 1,
     "ObjectiveType": 5,
     "ObjectiveText": "Deliver the note to Steve",
     "TimeLimit": -1,
-    "Deliveries": [
+    "Active": 1,
+    "Collections": [
         {
             "Amount": 1,
-            "ClassName": "ExpansionQuestItemPaper"
+            "ClassName": "ExpansionQuestItemPaper",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
         }
     ],
-    "MaxDistance": 20.0,
-    "MarkerName": "Talk to Steve",
-    "ShowDistance": 1    
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "MaxDistance": 10.0,
+    "MarkerName": "Deliver Items"
 }

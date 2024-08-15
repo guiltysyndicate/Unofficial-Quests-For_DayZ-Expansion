@@ -1,7 +1,7 @@
 {
-    "ConfigVersion": 5,
+    "ConfigVersion": 22,
     "ID": 500,
-    "Type": 4,
+    "Type": 1,
     "Title": "Apple Pie",
     "Descriptions": [
         "Someone is looking to make some apple pies for the next community pot luck, bring five back from your next trip.",
@@ -9,68 +9,101 @@
         "Awesome, she makes the best pies, here is your reward."
     ],
     "ObjectiveText": "Get 5 Apples",
-    "PreQuest": -1,
     "FollowUpQuest": -1,
-    "IsAchivement": 0,
     "Repeatable": 1,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 1,
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
     "IsGroupQuest": 0,
-    "IsBanditQuest": 0,
-    "IsHeroQuest": 0,
     "ObjectSetFileName": "",
-    "QuestClassName": "",
-    "Objectives": [
-        {
-            "ConfigVersion": 10,
-            "ID": 1,
-            "ObjectiveType": 4,
-            "ObjectiveText": "",
-            "TimeLimit": -1
-        }
-    ],
     "QuestItems": [],
     "Rewards": [
         {
             "ClassName": "Collectable_GPU",
             "Amount": 1,
-            "Attachments": []
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
         },
         {
             "ClassName": "Collectable_PocketWatch",
             "Amount": 1,
-            "Attachments": []
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
         },
         {
             "ClassName": "Collectable_PokemonCard_Eevee",
             "Amount": 1,
-            "Attachments": []
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
         },
         {
             "ClassName": "Collectable_PokemonCard_Charizard",
             "Amount": 1,
-            "Attachments": []
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
         },
         {
             "ClassName": "RP_JapanFoxMask",
             "Amount": 1,
-            "Attachments": []
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
         },
         {
             "ClassName": "Money_Dollar50",
             "Amount": 1,
-            "Attachments": []
-        }                                    
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
     ],
     "NeedToSelectReward": 1,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 0,
-    "HumanityReward": 50,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         1
     ],
     "QuestTurnInIDs": [
         1
-    ]
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 50,
+    "ReputationRequirement": 0,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
 }

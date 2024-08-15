@@ -1,8 +1,7 @@
 {
-    "ConfigVersion": 1,
+    "ConfigVersion": 6,
     "ID": 1,
     "ClassName": "ExpansionQuestNPCAIDenis",
-    "IsAI": 1,
     "Position": [
         3706.27001953125,
         402.0119934082031,
@@ -12,18 +11,6 @@
         282.0,
         0.0,
         0.0
-    ],
-    "QuestIDs": [
-        200,
-        300,
-        400,
-        401,
-        500,
-        501,
-        502,
-        503,
-        504,
-        505
     ],
     "NPCName": "Peter",
     "DefaultNPCText": "Hmm?",
@@ -37,5 +24,11 @@
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
     "NPCLoadoutFile": "TraderGroup",
-    "IsStatic": 0
+    "NPCInteractionEmoteID": 0,
+    "NPCQuestCancelEmoteID": 0,
+    "NPCQuestStartEmoteID": 0,
+    "NPCQuestCompleteEmoteID": 0,
+    "NPCFaction": "",
+    "NPCType": 2,
+    "Active": 1
 }

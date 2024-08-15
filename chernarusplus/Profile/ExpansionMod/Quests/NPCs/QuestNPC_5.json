@@ -1,8 +1,7 @@
 {
-    "ConfigVersion": 1,
+    "ConfigVersion": 6,
     "ID": 5,
     "ClassName": "ExpansionQuestBoardLarge",
-    "IsAI": 0,
     "Position": [
         3706.610107421875,
         403.25,
@@ -13,17 +12,17 @@
         0.0,
         0.0
     ],
-    "QuestIDs": [
-        800,
-        801,
-        802,
-        803
-    ],
     "NPCName": "Quest Board",
     "DefaultNPCText": "There is nothing to do here for you...",
     "Waypoints": [],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
     "NPCLoadoutFile": "",
-    "IsStatic": 1
+    "NPCInteractionEmoteID": 0,
+    "NPCQuestCancelEmoteID": 0,
+    "NPCQuestStartEmoteID": 0,
+    "NPCQuestCompleteEmoteID": 0,
+    "NPCFaction": "",
+    "NPCType": 1,
+    "Active": 1
 }

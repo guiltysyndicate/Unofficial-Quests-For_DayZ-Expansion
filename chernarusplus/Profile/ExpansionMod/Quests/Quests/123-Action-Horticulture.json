@@ -1,37 +1,46 @@
 {
-    "ConfigVersion": 5,
+    "ConfigVersion": 22,
     "ID": 123,
-    "Type": 10,
+    "Type": 1,
     "Title": "Green Thumb - Disinfect Plant",
     "Descriptions": [],
     "ObjectiveText": "You have Disinfected a Plant and completed a server achievement!",
-    "PreQuest": -1,
     "FollowUpQuest": -1,
-    "IsAchivement": 1,
     "Repeatable": 0,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 1,
     "IsGroupQuest": 0,
-    "IsBanditQuest": 0,
-    "IsHeroQuest": 0,
     "ObjectSetFileName": "",
-    "QuestClassName": "",
-    "Objectives": [
-        {
-            "ConfigVersion": 10,
-            "ID": 23,
-            "ObjectiveType": 10,
-            "ObjectiveText": "",
-            "TimeLimit": -1
-        }
-    ],
     "QuestItems": [],
     "Rewards": [],
     "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 0,
-    "HumanityReward": 100,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [],
-    "QuestTurnInIDs": []
+    "QuestTurnInIDs": [],
+    "IsAchievement": 1,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 23,
+            "ObjectiveType": 10
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 100,
+    "ReputationRequirement": 0,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
 }

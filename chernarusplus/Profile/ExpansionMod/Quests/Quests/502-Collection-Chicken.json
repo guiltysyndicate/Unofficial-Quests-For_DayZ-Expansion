@@ -1,7 +1,7 @@
 {
-    "ConfigVersion": 5,
+    "ConfigVersion": 22,
     "ID": 502,
-    "Type": 4,
+    "Type": 1,
     "Title": "Fried Chicken",
     "Descriptions": [
         "Nancy is looking to make her famous Fried Chicken, but the crazy bitch only uses Brown Chickens, not sure what thats about..",
@@ -9,68 +9,101 @@
         "It aint KFC but it's still good, here is your reward."
     ],
     "ObjectiveText": "Kill 10 Brown Chickens",
-    "PreQuest": -1,
     "FollowUpQuest": -1,
-    "IsAchivement": 0,
     "Repeatable": 1,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 1,
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
     "IsGroupQuest": 0,
-    "IsBanditQuest": 0,
-    "IsHeroQuest": 0,
     "ObjectSetFileName": "",
-    "QuestClassName": "",
-    "Objectives": [
-        {
-            "ConfigVersion": 10,
-            "ID": 3,
-            "ObjectiveType": 4,
-            "ObjectiveText": "",
-            "TimeLimit": -1
-        }
-    ],
     "QuestItems": [],
     "Rewards": [
         {
             "ClassName": "ChickenBreastMeat",
             "Amount": 5,
-            "Attachments": []
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
         },
         {
             "ClassName": "BookDracula",
             "Amount": 1,
-            "Attachments": []
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
         },
         {
             "ClassName": "BookDeadSouls",
             "Amount": 1,
-            "Attachments": []
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
         },
         {
             "ClassName": "DogtagCase",
             "Amount": 1,
-            "Attachments": []
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
         },
         {
             "ClassName": "RP_PaleMan",
             "Amount": 1,
-            "Attachments": []
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
         },
         {
             "ClassName": "Money_Dollar100",
             "Amount": 1,
-            "Attachments": []
-        }                                         
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
     ],
     "NeedToSelectReward": 1,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 0,
-    "HumanityReward": 50,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         1
     ],
     "QuestTurnInIDs": [
         1
-    ]
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 3,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 50,
+    "ReputationRequirement": 0,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
 }

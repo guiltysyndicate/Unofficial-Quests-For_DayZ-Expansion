@@ -1,7 +1,7 @@
 {
-    "ConfigVersion": 5,
+    "ConfigVersion": 22,
     "ID": 200,
-    "Type": 8,
+    "Type": 1,
     "Title": "Clear Canabal Camp",
     "Descriptions": [
         "Can you believe it? One of our hunting parties found a camp of Canabals... We are willing to pay if you can deal with them",
@@ -9,50 +9,61 @@
         "Nice work! Hopefully thats the last of those fuckers, here is your payment."
     ],
     "ObjectiveText": "Kill all Canabals at the marked location.",
-    "PreQuest": -1,
     "FollowUpQuest": -1,
-    "IsAchivement": 0,
     "Repeatable": 1,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 1,
     "CancelQuestOnPlayerDeath": 1,
     "Autocomplete": 0,
     "IsGroupQuest": 0,
-    "IsBanditQuest": 0,
-    "IsHeroQuest": 0,
     "ObjectSetFileName": "bandit2",
-    "QuestClassName": "",
-    "Objectives": [
-        {
-            "ConfigVersion": 10,
-            "ID": 1,
-            "ObjectiveType": 3,
-            "ObjectiveText": "",
-            "TimeLimit": -1
-        },
-        {
-            "ConfigVersion": 10,
-            "ID": 1,
-            "ObjectiveType": 8,
-            "ObjectiveText": "",
-            "TimeLimit": -1
-        }
-    ],
     "QuestItems": [],
     "Rewards": [
         {
             "ClassName": "Bitcoin",
             "Amount": 2,
-            "Attachments": []
-        }       
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
     ],
     "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 0,
-    "HumanityReward": 0,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         1
     ],
     "QuestTurnInIDs": [
         1
-    ]
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 8
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": 0,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
 }

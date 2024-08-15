@@ -1,7 +1,7 @@
 {
-    "ConfigVersion": 5,
+    "ConfigVersion": 22,
     "ID": 400,
-    "Type": 9,
+    "Type": 1,
     "Title": "Lost Survivor",
     "Descriptions": [
         "This dumb ass got seperated from their group and needs safe passage home.",
@@ -9,43 +9,56 @@
         "This aint no daycare, thanks for taking care of that. Here is your reward."
     ],
     "ObjectiveText": "PLACEHOLDER",
-    "PreQuest": -1,
     "FollowUpQuest": -1,
-    "IsAchivement": 0,
     "Repeatable": 0,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
     "IsGroupQuest": 0,
-    "IsBanditQuest": 0,
-    "IsHeroQuest": 0,
     "ObjectSetFileName": "",
-    "QuestClassName": "",
-    "Objectives": [
-        {
-            "ConfigVersion": 10,
-            "ID": 1,
-            "ObjectiveType": 9,
-            "ObjectiveText": "",
-            "TimeLimit": 180
-        }
-    ],
     "QuestItems": [],
     "Rewards": [
         {
             "ClassName": "Money_Dollar100",
             "Amount": 5,
-            "Attachments": []
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
         }
     ],
     "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 0,
-    "HumanityReward": 100,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         1
     ],
     "QuestTurnInIDs": [
         1
-    ]
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 9
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 100,
+    "ReputationRequirement": 0,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
 }

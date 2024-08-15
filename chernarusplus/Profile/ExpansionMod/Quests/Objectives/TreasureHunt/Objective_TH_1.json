@@ -1,31 +1,52 @@
 {
-    "ConfigVersion": 10,
+    "ConfigVersion": 28,
     "ID": 1,
     "ObjectiveType": 6,
     "ObjectiveText": "Find the location of the treasure",
     "TimeLimit": -1,
+    "Active": 1,
     "ShowDistance": 1,
-    "TreasureHunt": {
-        "Positions": [
-            [
-                2936.47998046875,
-                350.40399169921877,
-                6369.39013671875
-            ],
-            [
-                3143.35009765625,
-                365.7760009765625,
-                6942.0400390625
-            ],
-            [
-                5233.509765625,
-                290.8810119628906,
-                6246.3701171875
-            ]
+    "ContainerName": "",
+    "DigInStash": 0,
+    "MarkerName": "",
+    "MarkerVisibility": 0,
+    "Positions": [
+        [
+            2936.47998046875,
+            350.40399169921877,
+            6369.39013671875
         ],
-        "Items": {
-            "Zucchini": 1,
-            "MoneyRuble": 100
+        [
+            3143.35009765625,
+            365.7760009765625,
+            6942.0400390625
+        ],
+        [
+            5233.509765625,
+            290.8810119628906,
+            6246.3701171875
+        ]
+    ],
+    "LootItemsAmount": 2,
+    "MaxDistance": 0.0,
+    "Loot": [
+        {
+            "Name": "Zucchini",
+            "Chance": 0.30000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "MoneyRuble",
+            "Chance": 0.30000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
         }
-    }
+    ]
 }

@@ -1,16 +1,20 @@
 {
-    "ConfigVersion": 10,
+    "ConfigVersion": 28,
     "ID": 2,
     "ObjectiveType": 5,
     "ObjectiveText": "Deliver the package to Peter",
     "TimeLimit": -1,
-    "Deliveries": [
+    "Active": 1,
+    "Collections": [
         {
             "Amount": 1,
-            "ClassName": "ExpansionQuestItemPackage"
+            "ClassName": "ExpansionQuestItemPackage",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
         }
     ],
-    "MaxDistance": 20.0,
-    "MarkerName": "Talk to Peter",
-    "ShowDistance": 1
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "MaxDistance": 10.0,
+    "MarkerName": "Deliver Items"
 }

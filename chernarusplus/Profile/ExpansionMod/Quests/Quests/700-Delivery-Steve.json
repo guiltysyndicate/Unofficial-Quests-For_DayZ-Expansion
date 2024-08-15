@@ -1,7 +1,7 @@
 {
-    "ConfigVersion": 5,
+    "ConfigVersion": 22,
     "ID": 700,
-    "Type": 5,
+    "Type": 1,
     "Title": "A dirty rats job",
     "Descriptions": [
         "Shit man, who are you? Is your name %1? I thought we already dealt with you. ** (He stares at you for a moment and then begins to smile) ** Ah nevermind... Today is your lucky day, my friend! If you do me a little favor, I'll make sure you get off this island as soon as possible. I swear by my mother's beard! All you have to do is take this NOTE here to my useless colleague Steve and have him read it, then he will give something to you. Bring it to me! You can find Steve in the little village down the street in the north west. Make sure he reads the note and don't come back with empty hands!",
@@ -9,43 +9,56 @@
         "Look at that... Another little bambi in the forests of death..."
     ],
     "ObjectiveText": "Deliver the note and talk to Steve.",
-    "PreQuest": -1,
     "FollowUpQuest": 2,
-    "IsAchivement": 0,
     "Repeatable": 1,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 1,
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
     "IsGroupQuest": 0,
-    "IsBanditQuest": 0,
-    "IsHeroQuest": 0,
     "ObjectSetFileName": "",
-    "QuestClassName": "",
-    "Objectives": [
-        {
-            "ConfigVersion": 10,
-            "ID": 1,
-            "ObjectiveType": 5,
-            "ObjectiveText": "",
-            "TimeLimit": -1
-        }
-    ],
     "QuestItems": [],
     "Rewards": [
         {
             "ClassName": "Money_Dollar20",
             "Amount": 10,
-            "Attachments": []
-        }         
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
     ],
     "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 0,
-    "HumanityReward": 100,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         1
     ],
     "QuestTurnInIDs": [
         2
-    ]
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 100,
+    "ReputationRequirement": 0,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
 }
